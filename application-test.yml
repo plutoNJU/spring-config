@@ -5,8 +5,4 @@ spring:
   application:
     name: OrderService
   #zipkin服务地址
-  zipkin:
-    base-url: http://localhost:9411
-  sleuth:
-    sampler:
-      probability: 1    #采样率设置100%
+management.metrics.web.server.auto-time-request: false
